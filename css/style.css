@@ -1,0 +1,110 @@
+#tb{
+    background: #A5879E;
+    height: 50px;
+width: 80%;
+
+}
+
+#menu{
+
+    background: #A5879E;
+   
+    height: 250px; 
+width: 200px;
+}
+.table{
+    margin-left: 140px;
+    margin-top: 30px;
+    width: 100%;
+}
+#td{
+    height: 50px;
+}
+#searchTags{
+    margin-left: 350px;
+    margin-top: 60px;
+}
+body {
+    background-image:url(pemb.jpg); 
+width: 90%;
+height: 100%;
+background-size:cover;
+} 
+.gri{
+background: #5b5b5b;
+
+}
+.lila{
+background: #A5879E;
+
+}
+.pembe{
+background: #f4cccc;
+
+}
+.mavi{
+background: #9fc5e8;
+
+}
+.sari{
+background: #e7e89f;
+
+}
+.kirm{
+background: #f44336;
+
+}
+.pencere {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.6);
+}
+.pencere-content {
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+width: 50%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+-webkit-animation-name: animatetop;
+-webkit-animation-duration: 0.4s;
+animation-name: animatetop;
+animation-duration: 0.4s
+}
+.pencere-head {
+padding: 2px 16px;
+background-color: #DF9881;
+color: white;
+}
+.pencere-main {
+padding: 2px 16px;
+}
+.pencere-foot {
+padding: 2px 16px;
+background-color: #58949C;
+color: #ffffff
+}
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0} to {top:0; opacity:1}
+} 
+@keyframes animatetop {
+from {top:-300px; opacity:0} to {top:0; opacity:1}
+}
+.kapat {
+color: white;
+float: right;
+font-size: 28px;font-weight: bold;
+}
+.kapat:hover, .kapat:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+} 
